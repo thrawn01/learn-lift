@@ -1,0 +1,8 @@
+target/
+project/target/
+.idea/
+.DS_Store
+.idea_modules/
+*.db
+*.log
+.keep
