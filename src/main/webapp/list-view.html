@@ -5,37 +5,40 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>List View Example</title>
     <meta name="viewport" content="width=1024" />
-    <link rel="stylesheet" href="static/list-view.css" type="text/css"/>
 </head>
 
-<body>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <link rel="stylesheet" href="static/list-view.css" type="text/css"/>
+    <title>List View Example</title>
+</head>
+<body class="lift:content_id=main">
+<div id="main" class="lift:surround?with=default;at=content">
     <table width="100%">
-      <tr>
-        <td valign="top" width="50%">
-          <!-- list widget, add headers and such here -->
-          <div id="widget" class="list-widget" style="width:200px; height:100px; overflow:hidden">
-            <!-- view port where the data lives,  overflow is auto for a scrollable view -->
-            <div id="viewport" class="list-viewport" style="width:100%; height:100%; overflow:auto">
-              <table width="100%">
-                <tr class="row-even"> <td>row1</td> </tr>
-                <tr class="row-odd"> <td>row2</td> </tr>
-                <tr class="row-even"> <td>row3</td> </tr>
-                <tr class="row-odd"> <td>row4</td> </tr>
-                <tr class="row-even"> <td>row5</td> </tr>
-                <tr class="row-odd"> <td>row6</td> </tr>
-                <tr class="row-even"> <td>row7</td> </tr>
-              </table>
-            </div>
-          </div>
-        </td>
-        <td valign="top">
-          <h2>Demonstrates:</h2>
-          <ul>
-            <li>Scollable List View</li>
-          </ul>
-        </td>
-      </tr>
+        <tr>
+            <td valign="top">
+                <!-- list widget, add headers and such here -->
+                <div id="widget" class="list-widget" style="width:200px; height:100px; overflow:hidden">
+                    <!-- view port where the data lives,  overflow is auto for a scrollable view -->
+                    <div id="viewport" class="list-viewport" style="width:100%; height:100%; overflow:auto">
+                        <table width="100%">
+                            <tr class="row-even"> <td>row1</td> </tr>
+                            <tr class="row-odd"> <td>row2</td> </tr>
+                            <tr class="row-even"> <td>row3</td> </tr>
+                            <tr class="row-odd"> <td>row4</td> </tr>
+                            <tr class="row-even"> <td>row5</td> </tr>
+                            <tr class="row-odd"> <td>row6</td> </tr>
+                            <tr class="row-even"> <td>row7</td> </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
     </table>
 
+</div>
 </body>
 </html>
+
