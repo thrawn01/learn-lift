@@ -19,5 +19,6 @@ class HelloWorld {
    //lazy val date: Date = DependencyFactory.time.vend // create the date via factory
 
    //def howdy = "#time *" #> "blah"
+  def list_view(in: NodeSeq): NodeSeq = in
 }
 
