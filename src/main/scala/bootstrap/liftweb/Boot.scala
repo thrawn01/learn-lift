@@ -30,10 +30,8 @@ class Boot {
     def sitemap = SiteMap(
       Menu(Loc("Home", Link(List("index"), true, "/index"),  "Index")),
       Menu(Loc("Static", Link(List("static"), true, "/static/index"),  "Static Content")),
-      Menu(Loc("List View", Link(List("list-view"), true, "/static/list-view"),  "List View"))
+      Menu(Loc("List View", Link(List("list-view"), true, "/list-view"),  "List View"))
     )
-
-    //def sitemapMutators = User.sitemapMutator
 
     // set the sitemap.  Note if you don't want access control for
     // each page, just comment this line out.

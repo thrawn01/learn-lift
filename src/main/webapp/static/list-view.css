@@ -1,0 +1,19 @@
+
+.list-widget {
+    height:100%;
+    outline: 0px;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.list-viewport {
+    outline: 0px;
+    position: relative;
+}
+
+.row-odd {
+  background: #fafafa;
+}
+
+.row-even {
+}
